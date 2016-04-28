@@ -1,0 +1,39 @@
+.wrap {
+	font-variant: small-caps;
+}
+ .blog {
+ 	border-style: double;
+ 	margin: auto;
+ 	margin-top: 150px;
+ 	width: 550px; 
+ }
+
+p, b, .para {
+	text-align: center;
+	display: block;
+	letter-spacing: -0.5px;
+}
+b {
+	font-size: 30px;
+}
+.para {
+	letter-spacing: 4px;
+}
+nav li {
+	display: inline;
+	word-spacing: 45px;
+	letter-spacing: 1.5px;
+}
+ img {
+	height: 100px;
+	width: 180px;
+
+ }
+p.final {
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	font-family: Courier;
+	font-size: 12px;
+
+}
+
