@@ -1,0 +1,14 @@
+
+.external {
+	width: 400px;
+	margin: auto;
+}
+
+.row2 {
+	font-weight: bold;
+	text-align: center;
+}
+
+tfoot, table.external {
+	border-bottom: none;
+}
