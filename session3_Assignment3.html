@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HTML form </title>
+	<style type="text/css">
+
+	.wrap {
+		background: radial-gradient(rgb(0,0,255), rgb(255,255,255));
+	}
+
+	.main {	
+	width: 50%;
+    padding: 10px 200px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+	}
+	 p {
+	 	border: 1px solid white;
+	 	border-radius: 4px;
+	 	margin: 30px 30px;
+	 }
+
+	 #footer {
+    border-radius: 10px;
+    background-color: #000066;
+    font-weight: bold;
+   	color: #FFFFFF;
+   	font-family: sans-serif;
+   	margin-left: 600px;
+
+	}
+
+	 .main2 {
+	 padding: 20px;
+	 }
+
+
+	</style>
+</head>
+<body>
+<div class="wrap">
+<form>
+
+<h3> Step1: Your details: </h3>
+
+<p>Name <input class="main" type="text" name="fname"></input> </p>
+<p>Email <input class="main" type="email" name="femail"></input></p>
+<p> Phone <input class="main" type="number" name="fnum"></input></p>
+
+<h3> Step2: Delivery Address </h3>
+<p>Address <input class="main" type="text" name="add"> </input></p>
+<p>Post Code <input class="main" type="text" name="postal"> </input></p>
+<p>Country<input class="main" type="text" name="coun"> </input></p>
+
+
+<h3> Step3: Card details </h3>
+<p class="main2"> Card type <br> <br>
+<input class="card" type="radio" name="male" value="maleopt"> VISA </input>
+<input class="card" type="radio" name="male" value="maleopt" style="margin-left: 250px" > AmeX </input>
+<input class="card" type="radio" name="male" value="maleopt" style="margin-left: 250px"> MasterCard </input> </p>
+
+<p>Card Number <input class="main" type="text" name="cname"></input> </p>
+<p>Security code <input class="main" type="text" name="scode"></input></p>
+<p>Name on card <input class="main" type="number" name="cnam"></input></p>
+
+
+	<input id="footer" type="submit" value="BUY IT!" > </input>
+
+</form>
+</div>
+</body>
+</html>
