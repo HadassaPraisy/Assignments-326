@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Transitions </title>
+	<style type="text/css">
+
+	@keyframes myfirst
+		{
+			25%  {background:lightsalmon;}
+			50%  {background:salmon;}
+			100% {background:coral;}
+	}
+	#box {
+		height: 80px;
+		width: 80px;
+		background-color: green;
+		font-style: italic;
+		margin: auto;
+		text-align: center;
+		line-height: 75px;
+	}
+
+	#box:hover {
+		border-radius: 40px;
+		transition-timing-function: ease-in;
+		transition-duration: 5s;
+		animation-name: myfirst;
+		animation-duration: 5s;
+
+	}
+	</style>
+</head>
+<body>
+<div id="box" style="color: white;">
+	Box 
+</div>
+</body>
+</html>
