@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>if else</title>
+	<script type="text/javascript">
+		// function myFunc() {
+
+		for (var x=1; x <= 100; x++)
+		{
+	   		if( x%3 != 0 && x%5 != 0) 
+	   		{
+       			document.write( x );
+   			} 
+   			if( x%3 ==0 && x%5 ==0)
+   				{
+   					document.write( x + "fizzbuzz")
+   				}
+   			else 
+   			{
+       			if( x%3 == 0 ) 
+       		 	{
+           	 		document.write( x + " " + "fizz");
+     		 	}
+       		 	if( x%5 == 0 ) 
+       		 	{
+           			document.write(x + " " + "buzz");
+     	   	 	}
+    		}
+    		document.write('<br>');
+    	}
+    // }
+</script>
+</head>
+<body>
+<!-- <p> Click to check the multiples of 3 and 5 </p>
+<button type="submit" onclick="myFunc();"> Click here! </button> -->
+</body>
+</html>
