@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Circle area</title>
+	<script type="text/javascript">
+		function CalculateArea() {
+			var radius = document.calcForm.radius.value;
+			window.alert("The area of the circle is:" + (radius * radius * Math.PI));
+
+		}
+
+		function fillform() {
+			if (document.calcForm.radius.value == "") {
+				window.alert("Please enter the value :)");
+			}
+			
+		}
+	</script>
+	<form name="calcForm" method="post">
+		<p>Enter the radius of the circle : <input type="text" name="radius" onblur="fillform();"> </input> </p>
+		<button type="submit" name="calculate" onclick="CalculateArea();"> Calculate </button>
+
+	</form>
+</head>
+<body>
+
+</body>
+</html>
