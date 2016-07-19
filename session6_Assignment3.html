@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title> Check brackets</title>
+
+	<script type="text/javascript">
+		
+function checkBrackets(str){
+
+    var x = 0;
+    for(var i in str){   
+        if(str[i] == '('){
+            x ++;
+        } else if(str[i] == ')') {
+             x --;
+        }  
+
+        if (x < 0) return false;
+    }
+    if(x > 0) return false;
+    return true;
+}
+console.log(checkBrackets('( ( a + b ) / 5 – d )')); // true
+console.log(checkBrackets('( ( ) a + b ) / 5 – d )')); // false
+console.log(checkBrackets('( b * ( c + d *2 / ( 2 + ( 12 abc / ( a + 3 ) ) ) )')); // false
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
