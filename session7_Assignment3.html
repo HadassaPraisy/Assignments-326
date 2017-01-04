@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+	<script type="text/javascript">
+
+		
+	function myfunc() {
+		var a = document.getElementById('numfield').value;
+		if(isNaN(a)) {
+		alert("Not a number!!");
+	}
+	else {
+		alert("Is a number");
+	}
+	}
+
+	</script>
+
+
+</head>
+<body>
+Number Field: <input type="text" id="numfield" onblur="myfunc()">
+</body>
+</html>
