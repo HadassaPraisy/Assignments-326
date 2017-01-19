@@ -1,0 +1,81 @@
+header {
+	background-color: #000000;
+	height: 30px;
+}
+
+h1 {
+	
+	background-color: #dddddd;
+}
+
+
+h2 {
+	font-variant: small-caps;
+}
+
+aside p {
+	font-size: 13px;
+	float: right;
+	margin-top: -10px;
+	text-decoration: underline;
+}
+
+/*input {
+	width: 400px;
+}*/
+
+.submit {
+	
+	float: right;
+	color: #0000FF;
+	border: 2px solid blue;
+	padding: 3px;
+	width: 100px;
+
+}
+
+.login {
+	margin-top: -40px;
+	float: right;
+	border: 2px solid yellow;
+	width: 100px;
+	padding: 3px;
+	background-color: #008080;
+
+
+}
+
+aside {
+	
+	
+padding: 40px;
+	background-color: #008080;
+
+}
+
+section {
+	padding: 70px;
+
+}
+
+section,aside {
+	
+	width: 400px;
+	display: inline-block;
+	height: 250px;
+	position: initial;
+	margin-left: 100px;
+
+}
+
+.frm1 input {
+	width: 400px;
+	border: 1px solid red;
+}
+
+.frm2 input {
+	width: 400px;
+}
+
+
+
